@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Meme Generator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="memeGen3.css">
+    </head>
+    <body>
+      <h1>Meme Generator <br> <img src="https://appstickers-cdn.appadvice.com/1126326196/817857734/736baa9b245673940c483470f6716e9b-6.png" id= "header-img" alt="trollface"> </h1>
+      <p>
+        <textarea placeholder="Top Text" id="top-text"></textarea>
+      </p>
+      <p>
+        text size:<input type="range" id="top-text-size-input" min="0.05" max="0.25" value="0.15" step="0.01">
+      </p>
+      <p>
+        <textarea placeholder="Bottom Text" id="bottom-text"></textarea>
+      </p>
+      <p>
+        text size:<input type="range" id="bottom-text-size-input" min="0.05" max="0.25" value="0.15" step="0.01">
+      </p>
+      <p>
+        <input type="file" id="image-input" accept="image/*">
+      </p>
+      <p>
+        <button id="generate-btn">Make The Magic</button>
+      </p>
+      <p>
+        <canvas id="meme-canvas"></canvas>
+      </p>
+        <script src="memeGen3.js"></script>
+    </body>
+</html>

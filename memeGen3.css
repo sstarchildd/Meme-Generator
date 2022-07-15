@@ -1,0 +1,42 @@
+p {/
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+* {
+    font: inherit;
+}
+
+#meme-canvas {
+    width: 300px;
+}
+
+#image-input {
+    position: relative;
+    left: 30px;
+
+}
+
+#top-text { 
+    text-align: center;
+}
+
+#bottom-text { 
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: darkorchid;
+}
+
+#header-img {
+    width: 100px;
+    position: relative;
+    top: 20px;
+}
